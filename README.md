@@ -17,19 +17,6 @@ This project demonstrates how to manage and display data using JavaScript's core
 
 ---
 
-## 📂 Project Structure
-
-M3Entrenamiento2/
-│
-├── index.html # Main HTML file
-├── style.css # Custom styles and layout
-├── data_management.js # JS logic for data handling
-├── media/
-│ └── page_icon.png # Avatar/icon used in the UI
-└── README.md # Project overview and documentation
-
----
-
 ## 🧩 How It Works
 
 1. The `products` object holds all product information.
