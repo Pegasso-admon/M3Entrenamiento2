@@ -1,0 +1,38 @@
+/* Importing Bulma CSS */
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+/* Body styles: full height, flexbox layout to keep footer at bottom */
+body {
+    background-color: #554f4f3d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main area centered horizontally and vertically */
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Box styling: subtle shadow for depth */
+.box {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Unordered list of products: no bullets, no left padding */
+#product-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Each product list item: vertical spacing and bottom border */
+#product-list li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+}

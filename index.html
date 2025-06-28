@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data management</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./media/page_icon.png" type="image/x-icon">
+    <!-- Importing bulma framework through cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+</head>
+
+<body>
+    <!-- Main content area, vertically centered -->
+    <main>
+        <div class="container is-max-tablet">
+            <!-- Header banner with project title -->
+            <div class="notification is-primary has-background-black-bis">
+                <p class="has-text-weight-extrabold has-text-centered has-text-white-bis">Data management - Project</p>
+            </div>
+
+            <!-- Information card -->
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-64x64">
+                            <img src="./media/page_icon.png" alt="Samuel's avatar">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>Samuel Rosero</strong> <small>@Pegasso-admon</small>
+                                <br>
+                                Exploring data management with objects, sets and maps in JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Product list display -->
+            <div class="box">
+                <h2 class="title is-4">List of products</h2>
+                <ul id="product-list"></ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer section always at the bottom -->
+    <footer class="footer has-background-dark pb-2 pt-3">
+        <div class="content has-text-centered">
+            <p class="has-text-white-bis">
+                <strong>Data Management</strong> by Samuel Rosero. Made with Bulma and JavaScript.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./data_management.js"></script>
+</body>
+
+
+</html>
