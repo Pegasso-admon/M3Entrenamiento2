@@ -50,7 +50,7 @@ M3Entrenamiento2/
 
 ## 📸 Preview
 
-> The app shows a centered user profile and a dynamically rendered list of products, with a sticky footer at the bottom.
+> ![image](https://github.com/user-attachments/assets/aa73795c-d874-4077-b586-2137df2e1510)
 
 ---
 
